@@ -79,6 +79,7 @@
   align-items: center;
   flex-direction: column;
   background-color: #1d1e22;
+  background-color: #161d31;
 }
 .subsection {
   width: 100%;
@@ -97,7 +98,9 @@
   width: auto;
   font-family: Lato;
 }
-
+.subsection div {
+  margin: 0 20px;
+}
 .subsection img {
   height: 400px;
   width: 100%;
@@ -124,4 +127,17 @@
 .forty {
   color: #40b999;
   font-family: Lato;
+}
+.footer {
+  height: 50px;
+  background-color: #eeeeee;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #737373;
+}
+a {
+  color: #eeeeee;
+  text-decoration: none;
 }
